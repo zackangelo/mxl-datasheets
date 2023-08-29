@@ -1,0 +1,10 @@
+name = "mxl-datasheets"
+env = []
+
+[sources.pdf]
+type = "pdf"
+pdf_files = ["bronco.pdf"]
+
+[chat]
+sys_prompt = "You are an assistant helping answer questions a manufacturer of air conditioners for vintage Ford Broncos."
+collections = ["bronco"]
